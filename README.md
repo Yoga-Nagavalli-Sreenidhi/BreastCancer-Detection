@@ -58,6 +58,4 @@ If the application file is in a different folder, adjust the path accordingly.
 
 This application is intended for educational demonstration only. It is not a medical diagnostic tool.
 
-## Acknowledgements
 
-Project materials and code derived from existing work should be credited to their original contributors. Any additional modifications should be documented separately.
