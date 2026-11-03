@@ -1,35 +1,65 @@
-#Breast Cancer Detection System Using Machine Learning
+# Breast Cancer Detection Using AdaBoost Classifier
 
-This repository contains the implementation of a Breast Cancer Detection System developed as part of the Infosys Springboard Internship (October 3, 2024 – December 5, 2024). The project leverages machine learning techniques to accurately classify tumors as malignant or benign, enabling early detection and diagnosis.
-Demo Link: https://breastcancer-detection04.streamlit.app/
+## Project Overview
 
-🔍 Overview
-Early detection of breast cancer significantly improves survival rates. This project aims to provide a robust solution using the AdaBoost Classifier to enhance prediction accuracy and reduce false negatives, which are critical in healthcare applications.
+This project demonstrates a machine learning-based approach to breast cancer classification through a Streamlit web application.
 
-🛠️ Technologies Used
-Programming Language: Python
-Machine Learning Libraries: scikit-learn, imbalanced-learn
-Data Manipulation: pandas, numpy
-Visualization Tools: matplotlib, seaborn
-Deployment: Streamlit
-📊 Key Features
-Data Preprocessing:
+The application allows users to enter selected feature values and view a model prediction along with evaluation metrics.
 
-Handled missing values and encoded categorical data.
-Scaled features using StandardScaler for optimal performance.
-Class Imbalance Handling:
+## Objectives
 
-Addressed class imbalance using SMOTE (Synthetic Minority Over-sampling Technique).
-Model Development:
+- Demonstrate a machine learning classification workflow.
+- Understand the AdaBoost classifier.
+- Provide an interactive web interface for model predictions.
+- Display model evaluation metrics.
 
-Built a robust AdaBoost Classifier using decision trees as weak learners.
-Improved performance through GridSearchCV for hyperparameter tuning.
-Evaluation Metrics:
+## Technologies Used
 
-Evaluated using precision, recall, F1-score, and AUC-ROC for reliable diagnostics.
-Feature Selection:
+- Python
+- Streamlit
+- NumPy
+- Pandas
+- Scikit-learn
+- Imbalanced-learn
 
-Identified key features with importance >3% and retrained the model for enhanced efficiency.
-Deployment:
+## Dataset Information
+
+- **Dataset:** Breast Cancer Wisconsin (Diagnostic) Dataset
+- **Total records:** 569
+- **Features:** 30
+- **Classes:** Benign and Malignant
+
+## Application Features
+
+- Patient feature input interface
+- Classification prediction display
+- Model evaluation metrics
+- Dataset information and visualizations
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r BCD_app/requirements.txt
+```
+
+## Run the Application
+
+From the repository root directory, run:
+
+```bash
+python -m streamlit run BCD_app/app.py
+```
+
+If the application file is in a different folder, adjust the path accordingly.
+
+## Disclaimer
+
+This application is intended for educational demonstration only. It is not a medical diagnostic tool.
+
+## Acknowledgements
+
+Project materials and code derived from existing work should be credited to their original contributors. Any additional modifications should be documented separately.
 
 Developed an interactive web application using Streamlit, allowing users to input patient data and get real-time predictions.
