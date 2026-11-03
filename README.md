@@ -26,7 +26,7 @@ The application allows users to enter selected feature values and view a model p
 
 - **Dataset:** Breast Cancer Wisconsin (Diagnostic) Dataset
 - **Total records:** 569
-- **Features:** 13
+- **Features:** 30
 - **Classes:** Benign and Malignant
 
 ## Application Features
